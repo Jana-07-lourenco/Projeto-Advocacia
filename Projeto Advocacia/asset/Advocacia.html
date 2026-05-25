@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BFB Associados</title>
+
+  <link rel="stylesheet" href="Advocacia.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      ⚖️ EFB Associados
+    </div>
+
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Petições</a>
+      <a href="#">Jurisprudências</a>
+      <a href="#">Casos Julgados</a>
+      <a href="#">Contato</a>
+    </nav>
+    <div class="Contato-topo">
+       📞+55 (11) 91338-7704
+      ✉️ betebueno1987@icloud.com
+    </div>
+
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+
+      <div class="hero-text">
+        <h1>Sistema Jurídico Inteligente</h1>
+
+        <p>
+          Plataforma avançada para geração de petições,
+          consulta de jurisprudências e análise de casos julgados.
+        </p>
+
+        <button onclick="gerarPeticao()">
+          Gerar Petição
+        </button>
+      </div>
+
+    </section>
+
+    <section class="form-section">
+
+      <h2>📄 Criar Petição</h2>
+
+      <div class="form-grid">
+
+        <input type="text" id="cliente" placeholder="Nome do Cliente">
+
+        <select id="tipoAcao">
+          <option value="">Selecione a ação</option>
+          <option>Trabalhista</option>
+          <option>Cível</option>
+          <option>Consumidor</option>
+          <option>Previdenciária</option>
+        </select>
+
+        <textarea id="descricao" placeholder="Descreva o caso"></textarea>
+
+      </div>
+
+    </section>
+
+    <section class="resultado">
+
+      <h2>⚖️ Petição Gerada</h2>
+
+      <div id="peticaoResultado" class="peticao-box">
+
+        Sua petição aparecerá aqui...
+
+      </div>
+
+    </section>
+
+    <section class="jurisprudencias">
+
+      <h2>📚 Jurisprudências Recentes</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Direito do Consumidor</h3>
+          <p>
+            STJ reconhece danos morais por cobrança indevida.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Direito Trabalhista</h3>
+          <p>
+            TRT mantém vínculo empregatício em trabalho remoto.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Direito Previdenciário</h3>
+          <p>
+            INSS condenado por demora excessiva na análise.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <section class="contato">
+
+    <h2>📞 Contato</h2>
+    <div class="contato-box">
+       <p><strong>Advogada</strong> Bethe Bueno</p>
+       <p><strong>Telefone:</strong> +55 (11) 91338-7704</p>
+       <strong>WhatsApp:</strong> <p>Clique aqui para conversar no WhatsApp</p>
+    <a href="https://wa.me/5511913387704" target="_blank">Clique aqui para conversar no WhatsApp</a>
+       <p><strong>Email:</strong> betebueno1987@icloud.com</p>
+       <p><strong>Endereço:</strong> Rua Mata Redonda, 360 - São Paulo, SP</p>
+       <p><strong>Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
+    </div>
+    </section>
+  <footer>
+    © 2026 BFB Associados — Todos os direitos reservados.
+  </footer>
+
+  <script src="Advocacia.js"></script>
+
+</body>
+</html>
+
+
+ 
